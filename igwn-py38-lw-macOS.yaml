@@ -1,0 +1,29 @@
+channels:
+- conda-forge
+dependencies:
+- astropy=4.0=py38h64e0658_2
+- bilby=1.0.4=pyhd8ed1ab_0
+- corner=2.0.1=py_1003
+- curl=7.71.1=hcb81553_8
+- gwosc=0.5.4=py_0
+- gwpy=2.0.2=pyhd8ed1ab_0
+- h5py=2.10.0=nompi_py38h9a16e60_106
+- ipykernel=5.2.0=py38h23f93f0_1
+- ipython=7.13.0=py38h32f6830_2
+- jupyter_client=6.1.3=py_0
+- jupyter_console=6.1.0=py_1
+- jupyter_core=4.6.3=py38h50d1736_2
+- lalsuite=6.82=pyhd8ed1ab_0
+- ligo.skymap=0.5.0=py38hc758b35_0
+- matplotlib=3.3.2=py38h50d1736_1
+- notebook=6.0.3=py38h32f6830_1
+- numpy=1.19.5=py38h6ced74f_1
+- pandas=0.25.3=py38h4f17bb1_0
+- pip=20.0.2=py_2
+- pycbc=1.18.0=py38h08aea29_0
+- pygcn=1.0.2=py_0
+- python=3.8.6=h624753d_5_cpython
+- scipy=1.5.3=py38hb6cd474_0
+- six=1.14.0=py_1
+- wget=1.20.1=h33e2efd_0
+name: igwn-py38-lw
