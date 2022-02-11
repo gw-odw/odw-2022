@@ -1,10 +1,10 @@
-# GW Open Data Workshop #5
-May 23-25, 2022
-
-
 <p align="middle">
 <img src='share/odw-2022-logo.png' width=70%> 
 </p>
+
+<hr/>
+
+### GW Open Data Workshop #5
 
 This repository contains the material to support [GW Open Data Workshop #5](https://www.gw-openscience.org/odw/odw2022).
 
