@@ -4,7 +4,19 @@ In order to be able to execute the notebooks with the tutorials, you should conf
 
 The various options are listed in order of difficulty. However, whenever possible, we recommend the participants with some experience with Python environments to follow [Option 3](#option3), installing the requirements on their laptops and executing the tutorial notebooks from there. This has the advantage of avoiding any possible issue with online servers, including unstable internet connection or uneven memory and server availability, both on Colab and on MyBinder.
 
-## Option 1: Google Colab
+## Option 1: Run in mybinder
+
+<img src='https://www.wispresort.com/uploadedImages/Winter/easy.png' width=20 /> Easy (No software installation; Works for any OS)
+
+<img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/1QkjdG6IHeTWq2XtPreakLydaZMedJCrX/view?usp=sharing)
+
+Just click the button below
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gw-odw/odw-2022/HEAD)
+
+This will build a Docker image (if not already present) with the dependency file `environment.yml`. Then a [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) server will be open hosting the contents of the `gw-odw/odw-2022` repo. To find the Tutorials, click the folders `Tutorials, and then `Day 1`, `Day 2`, or `Day 3` to find the tutorials.
+
+## Option 2: Google Colab
 
 <img src='https://www.wispresort.com/uploadedImages/Winter/easy.png' width=20 /> Easy (No software installation; Works for any OS)
 
@@ -14,7 +26,7 @@ The various options are listed in order of difficulty. However, whenever possibl
 
 2. Click the GITHUB tab
 
-3. Enter "gw-odw/odw-2021" in the search bar, and click enter to search
+3. Enter "gw-odw/odw-2022" in the search bar, and click enter to search
 
 4. Double click the notebook of your choice
 
@@ -36,20 +48,6 @@ The various options are listed in order of difficulty. However, whenever possibl
 
 <div class="alert alert-info">If you are not familiar with google Colab, you can beforehand take a look at the guides offered by Google at  <a href="https://colab.research.google.com/notebooks/">this link</a>, in the "Examples" tab. In particular, it is recommended to have a certain understanding of the main features of notebooks, which you can learn in <a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">this tutorial</a>.</div>
 
-## Option 2: Run in mybinder
-
-<img src='https://www.wispresort.com/uploadedImages/Winter/easy.png' width=20 /> Easy (No software installation; Works for any OS)
-
-<img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/1QkjdG6IHeTWq2XtPreakLydaZMedJCrX/view?usp=sharing)
-
-Just click the button below
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gw-odw/odw-2021/master)
-
-or visit [mybinder.org](https://mybinder.org/), paste in the "GitHub repository name or URL" cell the following address `https://github.com/gw-odw/odw-2021/`, and hit the `Launch` button. 
-
-This will build a Docker image (if not already present) with the dependency file `environment.yml`. Then a [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) server will be open hosting the contents of the `gw-odw/odw-2021` repo. Check the Jupyter notebooks with the tutorials for the various days in the corresponding folders. 
-
 <a name="option3">
 
 ## Option 3: You have a Linux or Apple/Mac computer -- Use conda
@@ -60,7 +58,7 @@ This will build a Docker image (if not already present) with the dependency file
 
 <img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/1YZcaY-35JiHXOH4unRe5ECSeDl8IZFZy/view?usp=sharing)
 
-This workshop uses [Python version 3.8](https://www.python.org/downloads/release/python-380/). We recommend creating a [Python virtual environment](https://docs.python.org/3.8/tutorial/venv.html) and install all the package dependencies there. The official environment with all the required packages is [igwn-py38](https://computing.docs.ligo.org/conda/environments/igwn-py38/), available from the International Gravitational-Wave Observatory Network ([IGWN](https://computing.docs.ligo.org/guide/)) community website. However, we make available also a *light-weight* version of this environment, with only the strictly necessary packages to execute the notebooks. Whenever possible, we recommend the full installation though
+This workshop uses [Python version 3.9](https://www.python.org/downloads/release/python-390/). We recommend creating a [Python virtual environment](https://docs.python.org/3.8/tutorial/venv.html) and install all the package dependencies there. The official environment with all the required packages is [igwn-py38](https://computing.docs.ligo.org/conda/environments/igwn-py38/), available from the International Gravitational-Wave Observatory Network ([IGWN](https://computing.docs.ligo.org/guide/)) community website. However, we make available also a *light-weight* version of this environment, with only the strictly necessary packages to execute the notebooks. Whenever possible, we recommend the full installation though.
 
 This guide will walk you through the configuration of this environment with [Conda](https://www.anaconda.com/). 
 
