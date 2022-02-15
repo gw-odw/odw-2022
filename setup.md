@@ -10,9 +10,7 @@ The various options are listed in order of difficulty. However, whenever possibl
 
 <img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/1QkjdG6IHeTWq2XtPreakLydaZMedJCrX/view?usp=sharing)
 
-Just click the button below
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gw-odw/odw-2022/HEAD)
+To run the notebooks, click the badge:  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gw-odw/odw-2022/HEAD)
 
 This will build a Docker image (if not already present) with the dependency file `environment.yml`. Then a [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) server will be open hosting the contents of the `gw-odw/odw-2022` repo. To find the Tutorials, click the folders `Tutorials, and then `Day 1`, `Day 2`, or `Day 3` to find the tutorials.
 
@@ -22,15 +20,11 @@ This will build a Docker image (if not already present) with the dependency file
 
 <img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/17jYkGoVIavJa1B_Fbi6xK2D3jCFQT-A7/view?usp=sharing)
 
-1. Visit https://colab.research.google.com
+1. To run the notebooks, click the badge:  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gw-odw/odw-2022/blob/main/)   
 
-2. Click the GITHUB tab
+2. Double click the notebook of your choice
 
-3. Enter "gw-odw/odw-2022" in the search bar, and click enter to search
-
-4. Double click the notebook of your choice
-
-5. At the top of the notebook, uncomment any `pip install` commands by removing the `#`
+3. At the top of the notebook, uncomment any `pip install` commands by removing the `#`
 
     `#! pip install -q 'gwosc==0.5.4`  <-- Remove the `#` and run
 
@@ -44,7 +38,7 @@ This will build a Docker image (if not already present) with the dependency file
 
       Same as before. Just close the pop-up and go ahead without worrying too much.
 
-6. Click `run all` from the `runtime` menu at the top
+4. Click `run all` from the `runtime` menu at the top
 
 <div class="alert alert-info">If you are not familiar with google Colab, you can beforehand take a look at the guides offered by Google at  <a href="https://colab.research.google.com/notebooks/">this link</a>, in the "Examples" tab. In particular, it is recommended to have a certain understanding of the main features of notebooks, which you can learn in <a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">this tutorial</a>.</div>
 
@@ -58,7 +52,7 @@ This will build a Docker image (if not already present) with the dependency file
 
 <img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/1YZcaY-35JiHXOH4unRe5ECSeDl8IZFZy/view?usp=sharing)
 
-This workshop uses [Python version 3.9](https://www.python.org/downloads/release/python-390/). We recommend creating a [Python virtual environment](https://docs.python.org/3.8/tutorial/venv.html) and install all the package dependencies there. The official environment with all the required packages is [igwn-py38](https://computing.docs.ligo.org/conda/environments/igwn-py38/), available from the International Gravitational-Wave Observatory Network ([IGWN](https://computing.docs.ligo.org/guide/)) community website. However, we make available also a *light-weight* version of this environment, with only the strictly necessary packages to execute the notebooks. Whenever possible, we recommend the full installation though.
+This workshop uses [Python version 3.9](https://www.python.org/downloads/release/python-390/). We recommend creating a [Python virtual environment](https://docs.python.org/3.9/tutorial/venv.html) and install all the package dependencies there. The official environment with all the required packages is [igwn-py38](https://computing.docs.ligo.org/conda/environments/igwn-py39/), available from the International Gravitational-Wave Observatory Network ([IGWN](https://computing.docs.ligo.org/guide/)) community website. However, we make available also a *light-weight* version of this environment, with only the strictly necessary packages to execute the notebooks. Whenever possible, we recommend the full installation though.
 
 This guide will walk you through the configuration of this environment with [Conda](https://www.anaconda.com/). 
 
@@ -73,15 +67,9 @@ This guide will walk you through the configuration of this environment with [Con
     
    You may need to restart your computer after installation.
 
-2. If you want to install the full [igwn-py38 environment](https://computing.docs.ligo.org/conda/environments/igwn-py38/) (recommended), download the YML dependencies file for the IGWN website:
-   * [YML file for Linux](https://computing.docs.ligo.org/conda/environments/linux/igwn-py38.yaml)
-   * [YAML file for macOS](https://computing.docs.ligo.org/conda/environments/osx/igwn-py38.yaml)
-
-   Instead, for the *light-weight* environment, download the YML file corresponding to your operating system from this repository:
-   * [YAML file for linux](./environment.yml)
-   * [YAML file for macOS](./igwn-py38-lw-macOS.yaml)
-
-   **Note:** the name of the *light-weight* environment is **igwn-py38-lw** to distinguish it from the official one, `igwn-py38`. In the following steps, remember to add the "`-lw`" subfix to the name.
+2. To install the full [igwn-py39 environment](https://computing.docs.ligo.org/conda/environments/igwn-py39/) (recommended), download the YML dependencies file for the IGWN website:
+   * [YML file for Linux](https://computing.docs.ligo.org/conda/environments/linux/igwn-py39.yaml)
+   * [YAML file for macOS](https://computing.docs.ligo.org/conda/environments/osx/igwn-py39.yaml)
 
 3. Add the conda-forge channel
 
@@ -92,46 +80,31 @@ This guide will walk you through the configuration of this environment with [Con
    
    `conda env create --file igwn-py38.yaml`
    
-   Otherwise, for the light-weight one: <br/>
-   * On Linux: `conda env create --file environment.yml`
-   * On macOS: `conda env create --file igwn-py38-lw-macOS.yaml`
-
 5. Clone the workshop git repo 
 
-    `git clone https://github.com/gw-odw/odw-2021.git`
+    `git clone https://github.com/gw-odw/odw-2022.git`
 
 6. Move into the directory with the workshop git repo 
 
-    `cd odw-2021`
+    `cd odw-2022`
     
 7. Activate the environment. <br/>
    **Note:** remember to add "`-lw`" to the name of the environment if you have installed the light-weight one.
 
-   `conda activate igwn-py38`
+   `conda activate igwn-py39`
    
    (Light-weight environment: `conda activate igwn-py38-lw`)
 
 8. Build a custom [jupyter kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) using the command 
 
-  `ipython kernel install --user --name=igwn-py38` 
+  `ipython kernel install --user --name=igwn-py39` 
   
-  or equivalently 
-  
-  `python -m ipykernel install --user --name=igwn-py38`
-  
-  (Light-weight environment: `--name=igwn-py38-lw`)
 
 9. Start the Jupyter notebook server <br/>
-  `jupyter notebook` and select the kernel `igwn-py38` (`igwn-py38-lw`) if this is not done by default.
+  `jupyter notebook` and select the kernel `igwn-py39` if this is not done by default.
 
 **Notebooks:**
 If you are not familiar with Jupyter notebooks, google one of the many introductory guides available on the internat, like <a href="https://realpython.com/jupyter-notebook-introduction/">this one</a>. Also, taking a look at the <a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">Examples</a> offered by Google Colab can be helpful.
-
-**Troubleshooting:**
-- The kernel `igwn-py38` should appear in the list returned by the command `jupyter kernelspec list` executed in a terminal
-- If, when you run jupyter, you get the message: `Could not find kernel matching igwn-py38. Please select a kernel: Python 3`
-this indicates the `igwn-py38` kernel is not installed properly. Make sure you executed step 9)
-- Having the full environment and the light-weight one with two different names allows them to coexist. If you want to leave the same name and overwrtite one or the other, simply add `--force` option when you create it.
 
 ## Option 4: Linux install on Windows 10 with dedicated app (Windows 10 only)
 
