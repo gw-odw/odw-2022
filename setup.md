@@ -52,14 +52,14 @@ This will build a Docker image (if not already present) with the dependency file
 
 <img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/1YZcaY-35JiHXOH4unRe5ECSeDl8IZFZy/view?usp=sharing)
 
-This workshop uses [Python version 3.9](https://www.python.org/downloads/release/python-390/). We recommend creating a [Python virtual environment](https://docs.python.org/3.9/tutorial/venv.html) and install all the package dependencies there. The official environment with all the required packages is [igwn-py38](https://computing.docs.ligo.org/conda/environments/igwn-py39/), available from the International Gravitational-Wave Observatory Network ([IGWN](https://computing.docs.ligo.org/guide/)) community website. However, we make available also a *light-weight* version of this environment, with only the strictly necessary packages to execute the notebooks. Whenever possible, we recommend the full installation though.
+This workshop uses [Python version 3.9](https://www.python.org/downloads/release/python-390/). We recommend creating a [Python virtual environment](https://docs.python.org/3.9/tutorial/venv.html) and install all the package dependencies there. The official environment with all the required packages is [igwn-py39](https://computing.docs.ligo.org/conda/environments/igwn-py39/), available from the International Gravitational-Wave Observatory Network ([IGWN](https://computing.docs.ligo.org/guide/)) community website. However, we make available also a *light-weight* version of this environment, with only the strictly necessary packages to execute the notebooks. Whenever possible, we recommend the full installation though.
 
 This guide will walk you through the configuration of this environment with [Conda](https://www.anaconda.com/). 
 
 1. Install miniconda:
    
     - Visit the website https://conda.io/en/latest/miniconda.html
-    - Choose the version for Python 3.8
+    - Choose the version for Python 3.9
     - Follow the [installation instructions](https://conda.io/projects/conda/en/latest/user-guide/install/
 ) for your operating system: 
         - [Linux](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
@@ -69,7 +69,7 @@ This guide will walk you through the configuration of this environment with [Con
 
 2. To install the full [igwn-py39 environment](https://computing.docs.ligo.org/conda/environments/igwn-py39/) (recommended), download the YML dependencies file for the IGWN website:
    * [YML file for Linux](https://computing.docs.ligo.org/conda/environments/linux/igwn-py39.yaml)
-   * [YAML file for macOS](https://computing.docs.ligo.org/conda/environments/osx/igwn-py39.yaml)
+   * [YML file for macOS](https://computing.docs.ligo.org/conda/environments/osx/igwn-py39.yaml)
 
 3. Add the conda-forge channel
 
@@ -78,7 +78,7 @@ This guide will walk you through the configuration of this environment with [Con
 4. Create the environment. <br/>
    If you have downloaded the full environment, either on Linux or macOS:
    
-   `conda env create --file igwn-py38.yaml`
+   `conda env create --file igwn-py39.yaml`
    
 5. Clone the workshop git repo 
 
