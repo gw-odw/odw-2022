@@ -1,12 +1,10 @@
-# Quick start with Google Colab
+## Quick start
 
-Click links below to open tutorials in Google Colab
+Click a badge below to run the notebooks
 
-* <a href="https://colab.research.google.com/github/gw-odw/odw-2021/blob/master/Tutorials/Day_1/Tuto%201.1%20Discovering%20Open%20Data.ipynb" target="_blank">Tuto 1.1</a>
-                
-* <a href="https://colab.research.google.com/github/gw-odw/odw-2021/blob/master/Tutorials/Day_1/Tuto%201.2%20Open%20Data%20access%20with%20GWpy.ipynb" target="_blank">Tuto 1.2</a>
-* <a href="https://colab.research.google.com/github/gw-odw/odw-2021/blob/master/Tutorials/Day_1/Tuto%201.3%20Q-transforms%20with%20GWpy.ipynb" target="_blank">Tuto 1.3</a>
-* <a href="https://colab.research.google.com/github/gw-odw/odw-2021/blob/master/Tutorials/Day_1/Tuto%201.4%20Generating%20waveforms.ipynb" target="_blank">Tuto 1.4</a>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gw-odw/odw-2022/HEAD)
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gw-odw/odw-2022/blob/main/)
 
 
 ### Quiz Questions
