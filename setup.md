@@ -99,6 +99,12 @@ This guide will walk you through the configuration of this environment with [Con
 
   `ipython kernel install --user --name=igwn-py39` 
   
+- For Windows users working with WSL, a change is needed to access the notebook.
+Run `jupyter notebook --generate-config` to generate the file ~/.jupyter/jupyter_notebook_config.py 
+In the file ~/.jupyter/jupyter_notebook_config.py change the following line:
+    # c.NotebookApp.use_redirect_file = True
+to 
+    # c.NotebookApp.use_redirect_file = False
 
 9. Start the Jupyter notebook server <br/>
   `jupyter notebook` and select the kernel `igwn-py39` if this is not done by default.
@@ -111,9 +117,5 @@ If you are not familiar with Jupyter notebooks, google one of the many introduct
 <img src='https://www.wispresort.com/uploadedImages/Winter/hard.png' width=20 /> Advanced (For Windows 10)
 
 Install a Linux distribution on your Windows system. 
-See instructions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-
-We suggest you install Debian GNU/Linux, which is the closest distribution to what is 
-used currently by LIGO/Virgo. Once you have Linux installed, follow the instructions 
-in Option 3.
-
+See instructions over [here](https://ask.igwn.org/t/run-the-workshops-under-windows-with-wsl/84).
+Please indicate to us any problem or misunderstanding that you meet when following these steps. You can make comment directly on [ask.igwn.org](https://ask.igwn.org/)
