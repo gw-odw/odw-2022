@@ -101,7 +101,7 @@ This guide will walk you through the configuration of this environment with [Con
   
 - For Windows users working with WSL, a change is needed to access the notebook.
 Run `jupyter notebook --generate-config` to generate the file ~/.jupyter/jupyter_notebook_config.py, and in this file change the following line:
-**# c.NotebookApp.use_redirect_file = True** to **# c.NotebookApp.use_redirect_file = False**
+**#c.NotebookApp.use_redirect_file = True** to **#c.NotebookApp.use_redirect_file = False**
 
 9. Start the Jupyter notebook server <br/>
   `jupyter notebook` and select the kernel `igwn-py39` if this is not done by default.
