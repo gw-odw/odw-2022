@@ -97,7 +97,7 @@ This guide will walk you through the configuration of this environment with [Con
 
 8. Build a custom [jupyter kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) using the command 
 
-  `ipython kernel install --user --name=igwn-py39` 
+  `python -m ipykernel install --user --name igwn-py39 --display-name "Python (igwn-py39)"`
   
 - For Windows users working with WSL, a change is needed to access the notebook.
 Run `jupyter notebook --generate-config` to generate the file ~/.jupyter/jupyter_notebook_config.py, and in this file change the following line:
