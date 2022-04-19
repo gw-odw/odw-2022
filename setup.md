@@ -107,7 +107,7 @@ Run `jupyter notebook --generate-config` to generate the file ~/.jupyter/jupyter
   `jupyter notebook` and select the kernel `igwn-py39` if this is not done by default.
 
 **Notebooks:**
-If you are not familiar with Jupyter notebooks, google one of the many introductory guides available on the internat, like <a href="https://realpython.com/jupyter-notebook-introduction/">this one</a>. Also, taking a look at the <a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">Examples</a> offered by Google Colab can be helpful.
+If you are not familiar with Jupyter notebooks, google one of the many introductory guides available on the internet, like <a href="https://realpython.com/jupyter-notebook-introduction/">this one</a>. Also, taking a look at the <a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">Examples</a> offered by Google Colab can be helpful.
 
 ## Option 4: Linux install on Windows 10 with dedicated app (Windows 10 only)
 
