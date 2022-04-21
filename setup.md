@@ -70,6 +70,10 @@ This guide will walk you through the configuration of this environment with [Con
 2. To install the full [igwn-py39 environment](https://computing.docs.ligo.org/conda/environments/igwn-py39/) (recommended), download the YML dependencies file for the IGWN website:
    * [YML file for Linux](https://computing.docs.ligo.org/conda/environments/linux/igwn-py39.yaml)
    * [YML file for macOS](https://computing.docs.ligo.org/conda/environments/osx/igwn-py39.yaml)
+   
+   Instead, you could also use the _light-weight_ version of this environment:
+   * [Light-weight YML file for Linux](https://github.com/gw-odw/odw-2022/blob/main/environment.yml)
+   * [Light-weight YML file for macOS](https://github.com/gw-odw/odw-2022/blob/main/igwn-py38-lw-macOS.yaml)
 
 3. Add the conda-forge channel
 
