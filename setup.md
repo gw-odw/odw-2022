@@ -12,7 +12,7 @@ The various options are listed in order of difficulty. However, whenever possibl
 
 To run the notebooks, click the badge:  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gw-odw/odw-2022/HEAD)
 
-This will build a Docker image (if not already present) with the dependency file `environment.yml`. Then a [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) server will be open hosting the contents of the `gw-odw/odw-2022` repo. To find the Tutorials, click the folders `Tutorials, and then `Day 1`, `Day 2`, or `Day 3` to find the tutorials.
+This will build a Docker image (if not already present) with the dependency file `environment.yml`. Then a [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) server will be open hosting the contents of the `gw-odw/odw-2022` repo. To find the Tutorials, click the folders `Tutorials`, and then `Day 1`, `Day 2`, or `Day 3` to find the tutorials.
 
 ## Option 2: Google Colab
 
