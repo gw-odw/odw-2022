@@ -52,7 +52,7 @@ This will build a Docker image (if not already present) with the dependency file
 
 <img src='./share/video-icon.png' width=18 /> [Video instructions](https://drive.google.com/file/d/1YZcaY-35JiHXOH4unRe5ECSeDl8IZFZy/view?usp=sharing)
 
-This workshop uses [Python version 3.9](https://www.python.org/downloads/release/python-390/). We recommend creating a [Python virtual environment](https://docs.python.org/3.9/tutorial/venv.html) and install all the package dependencies there. The official environment with all the required packages is [igwn-py39](https://computing.docs.ligo.org/conda/environments/igwn-py39/), available from the International Gravitational-Wave Observatory Network ([IGWN](https://computing.docs.ligo.org/guide/)) community website. However, we make available also a *light-weight* version of this environment, with only the strictly necessary packages to execute the notebooks. Whenever possible, we recommend the full installation though.
+This workshop uses [Python version 3.9](https://www.python.org/downloads/release/python-390/). We recommend creating a [Python virtual environment](https://docs.python.org/3.9/tutorial/venv.html) and install all the package dependencies there. The official environment with all the required packages is [igwn-py39](https://computing.docs.ligo.org/conda/environments/igwn-py39/), available from the International Gravitational-Wave Observatory Network ([IGWN](https://computing.docs.ligo.org/guide/)) community website. 
 
 This guide will walk you through the configuration of this environment with [Conda](https://www.anaconda.com/). 
 
@@ -76,7 +76,6 @@ This guide will walk you through the configuration of this environment with [Con
     `conda config --add channels conda-forge`
 
 4. Create the environment. <br/>
-   If you have downloaded the full environment, either on Linux or macOS:
    
    `conda env create --file igwn-py39.yaml`
    
@@ -89,12 +88,9 @@ This guide will walk you through the configuration of this environment with [Con
     `cd odw-2022`
     
 7. Activate the environment. <br/>
-   **Note:** remember to add "`-lw`" to the name of the environment if you have installed the light-weight one.
 
    `conda activate igwn-py39`
    
-   (Light-weight environment: `conda activate igwn-py38-lw`)
-
 8. Build a custom [jupyter kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) using the command 
 
   `python -m ipykernel install --user --name igwn-py39 --display-name "Python (igwn-py39)"`
