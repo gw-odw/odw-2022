@@ -11,7 +11,7 @@ Data files may be downloaded using these links:
 * [challenge3.gwf](https://www.gw-openscience.org/s/workshop3/challenge/challenge3.gwf)
 * [challenge3-2048.gwf](https://www.gw-openscience.org/s/workshop3/challenge/challenge3-2048.gwf)   <-- Downsampled version of Challenge 3 file
 
-Workshop participants may [submit solutions](https://gw-odw.thinkific.com/courses/take/workshop-5/surveys/32204566-submit-your-data-challenge-solution) as individuals or in teams of up to 3 people.  Solutions are due at the start of the close-out session, that is before 23:00 UTC of Day 3+7, Wednesday June 1. 
+Workshop participants may [submit solutions](https://gw-odw.thinkific.com/courses/take/workshop-5/surveys/32204566-submit-your-data-challenge-solution) as individuals or in teams of up to 3 people.  Solutions are due before 23:00 UTC of Day 3+7, Wednesday June 1. 
 
 Challenges are ordered by difficulty. Entries will be rewarded a number of
 points that scales with the difficulty of the challenge. 
