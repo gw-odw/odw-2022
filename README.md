@@ -12,6 +12,8 @@ Firstly, we recommend taking a look at the setup guide, where you can find the i
 
 In the [Tutorials](./Tutorials/) folder, you can find the various notebooks for the three days, divided on the base of their topics. There are also some quiz that you are asked to complete at the end of each session.
 
+For every question concerning the software setup, the tutorials, the workshop in general, or even for GW science questions, please use [this forum](https://ask.igwn.org/). You can check if your question was already asked in the Open Data Workshop category and, if you can't find your answer, you can post a new question.  
+
 Lastly, test yourself with the [GW Data Challenge](./Challenge/)!
 
 ## Software setup
