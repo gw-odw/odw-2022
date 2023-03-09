@@ -1,5 +1,6 @@
 <p align="middle">
-<img src='share/odw-2023-logo.png' width=70%> 
+<img src='share/odw-2023-logo.png' width=100%> 
+</p>
 
 ***
 
