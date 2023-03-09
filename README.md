@@ -1,12 +1,12 @@
 <p align="middle">
-<img src='share/odw-2022-logo.png' width=70%> 
+<img src='share/odw-2023-logo.png' width=70%> 
 </p>
 
 ***
 
-# GW Open Data Workshop #5
+# GW Open Data Workshop #6
 
-This repository contains the material to support [GW Open Data Workshop #5](https://www.gw-openscience.org/odw/odw2022).
+This repository contains the material to support [GW Open Data Workshop #6](https://www.gw-openscience.org/odw/odw2023).
 
 Firstly, we recommend taking a look at the setup guide, where you can find the information to configure the workspace where you are going to execute the tutorials.
 
