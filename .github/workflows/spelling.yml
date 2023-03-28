@@ -3,8 +3,6 @@ name: Spelling check
 on:
   push:
     branches: "*"
-  pull_request:
-    branches: "*"
 
 jobs:
   test:
@@ -17,5 +15,7 @@ jobs:
     steps:
     - name: Test with codespell
       run: |
+        python -m pip install -U pip
+        python -m pip install -U jupyterhub
         for file in Tutorials/Day_*/*ipynb; do echo $file; jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace $file; done
         codespell . --ignore-regex "\b[a-zA-Z]{2,3}\b" -I .dictionary.txt
