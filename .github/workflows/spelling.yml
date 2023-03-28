@@ -17,4 +17,5 @@ jobs:
     steps:
     - name: Test with codespell
       run: |
-        codespell . --ignore-regex "\b[a-zA-Z]{2,3}\b"
+        for file in Tutorials/Day_*/*ipynb; do echo $file; jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace $file; done
+        codespell . --ignore-regex "\b[a-zA-Z]{2,3}\b" -I .dictionary.txt
