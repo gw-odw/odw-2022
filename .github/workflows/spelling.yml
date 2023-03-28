@@ -16,6 +16,6 @@ jobs:
     - name: Test with codespell
       run: |
         python -m pip install -U pip
-        python -m pip install -U jupyterhub
+        python -m pip install -U jupyter
         for file in Tutorials/Day_*/*ipynb; do echo $file; jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace $file; done
         codespell . --ignore-regex "\b[a-zA-Z]{2,3}\b" -I .dictionary.txt
