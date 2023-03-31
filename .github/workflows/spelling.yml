@@ -14,11 +14,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Test with codespell
+    - name: Install dependencies
       run: |
         python -m pip install -U pip
         python -m pip install -U jupyter codespell
-        echo "here"
-        ls
-        #for file in Tutorials/Day_*/*ipynb; do echo $file; jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace $file; done
+    - name: Clean all notebooks
+      run: |
+        for file in Tutorials/Day_*/*ipynb; do echo $file; jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace $file; done
+    - name: Check spelling
+      run: |
         codespell . --ignore-regex "\b[a-zA-Z]{2,3}\b" -I .dictionary.txt
